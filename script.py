@@ -22,3 +22,5 @@ cursor = conn.cursor()
 cursor.execute("SELECT * FROM data_baskit;") # cek table data_baskit
 table_baskit = cursor.fetchone()
 table_baskit
+
+conn.close()
